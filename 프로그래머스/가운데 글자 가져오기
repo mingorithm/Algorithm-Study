@@ -1,0 +1,13 @@
+## [프로그래머스] 가운데 글자 가져오기
+def solution(s):
+    if len(s) % 2 != 0: # 문자열 s의 길이가 홀수라면
+        return s[len(s) // 2] # 전체의 길이를 반으로 나눈 몫 반환
+    else: # 문자열 s의 길이가 짝수라면
+        return s[len(s) // 2-1 :len(s) // 2+1]
+    # 전체의 길이를 반으로 나눈 몫보다 작은 값과 반으로 나눈 값을 출력
+    
+# 문제를 푸는 데 있어 인덱스와 슬라이싱에 관해 이해를 해야 함
+    
+solution("abcde")
+solution("qwer")
+solution("camtono")
