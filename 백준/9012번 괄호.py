@@ -1,3 +1,4 @@
+# 제출용
 num=int(input())
 for i in range(1,num+1): # 반복만큼 계산
     text=list(input())# 값넣음
